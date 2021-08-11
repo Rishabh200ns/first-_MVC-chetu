@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<html>
+<head>
+    <meta name="viewport" conten
+    <title>Index</title>
+</head>
+
+<body>t="width=device-width" />
+    <div>
+        <h2>I am customer page</h2>
+        <ol>
+            @foreach(var c in ViewBag.customers)
+            {
+                <li>@c</li>
+            }
+        </ol>
+    </div>
+    
+</body>
+
+</html>

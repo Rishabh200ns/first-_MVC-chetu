@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li> @Html.ActionLink("Home", "Index")</li>
+
+            <li>  @Html.ActionLink("About", "About")</li>
+            <li> @Html.ActionLink("Contact", "Contact") </li>
+            <li> @Html.ActionLink("Customer", "Index" , "Customer") </li>
+        </ul>
+    </div>
+    <div>
+        <h1>Welcome to MVC Application</h1>
+    </div>
+    <footer>
+        <h2>Today is:@DateTime.Now</h2>
+    </footer>
+    
+</body>
+
+</html>
+
+
+
